@@ -1,0 +1,40 @@
+.header-inner {
+    padding: 50px 0 0 15px;
+}
+
+.navbar {
+    width: 100%;
+    
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-right: 10px;
+    list-style-type: none;
+    display: inline;
+
+}
+
+.nav-link {
+    font-weight: 400;
+    line-height: 22.8px;
+    color: #303948;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.nav-link:hover {
+    color: darkblue;
+}
+
+.header__logo .active{
+    display: none;
+
+}
+
+.mob-menu{
+    display: none;
+}
