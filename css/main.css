@@ -81,16 +81,6 @@
     line-height: 25px;
 }
 
-/* .about__text::after {
-    content: "";
-    background: url(../img/Arrow.png) no-repeat;
-    width: 48px;
-    height: 48px;
-    display: block;
-    position: relative;
-    left: 900px;
-} */
-
 .client__wrapper {
     margin-top: -50px;
     z-index: 3;
@@ -269,25 +259,6 @@
     margin-top: 10px;
 }
 
-
-/* .::before {
-    content: url('../img/main/Ellipse-1.png');
-    position: relative;
-    bottom: -200px;
-    
-} */
-
-
-
-/* .process__items::before {
-    content: url('../img/main/Dot\ yellow-1.png');
-    position: relative;
-    z-index: 3;
-    display: block;
-} */
-
-
-
 .itself__wrapper {
     text-align: center;
 }
@@ -348,26 +319,6 @@
     border-radius: 35px;
 }
 
-/* .itself-right::after {
-    content: url('../img/grey-left.png');
-    position: relative;
-    right: -80px;
-    top: -85px;
-    width: 155px;
-    height: 100px;
-    display: block;
-}
-
-.itself-right {
-    position: relative;
-    left: 900px;
-}
-
-.itself_left::before {
-    content: url('../img/blue-right.png');
-    position: relative;
-    right: 350px;
-} */
 
 .for__btn {
     margin-left: 10px;
@@ -393,7 +344,7 @@
     content: url('../img/Dot\ yellow\ 2.png');
     width: 100px;
     height: 100px;
-    transition: all 0,7s ease;
+    transition: all 0, 7s ease;
     position: relative;
     z-index: 2;
     top: 90px;
@@ -401,9 +352,18 @@
     display: block;
 }
 
- .testimony-left__img :hover {
-    transform: translate3d(30px 50px 100px);
-    box-shadow: 10px 10px 10px #333;
+.testimony-left__img::after {
+    content: 'CoreyAnderson';
+    font-size: 30px;
+    font-weight: 700;
+    color: orange;
+    position: relative;
+    z-index: 2;
+    bottom: 120px;
+    left: 77px;
+}
+
+.testimony-left__img :hover {
     position: relative;
     z-index: 1;
     transition: all 2s ease;
@@ -411,22 +371,13 @@
     filter: grayscale(0.5) blur(10px);
 }
 
-
-/* .testimony-left__img::after {
-    content: url('../img/blue-left.png');
+.testimony-left__img h4 p {
+    font-size: 24px;
+    font-weight: 800;
+    color: #59616D;
     position: relative;
-    left: 1000px;
-    top: -93.5px;
-    display: block;
+    filter: none;
 }
-
-.testimony-right__text::after {
-    content: url('../img/blue-right.png');
-    position: relative;
-    bottom: -94px;
-    left: 600px;
-    display: block;
-} */
 
 
 .testimony-right {
