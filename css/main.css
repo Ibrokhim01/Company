@@ -379,7 +379,9 @@
 }
 
 
-
+.testimony-left__img{
+    position: relative;
+}
 .testimony-left__img img {
     transition: all 2s ease;
     border-radius: 35px;
@@ -399,6 +401,17 @@
     top: 90px;
     left: 338px;
     display: block;
+}
+
+.testimony-left__span {
+    font-size: 30px;
+    font-weight: 700;
+    color: orange;
+    position: absolute;
+    z-index: 2;
+    top: 84%;
+    left: 20%;
+    
 }
 
  .testimony-left__img :hover {
