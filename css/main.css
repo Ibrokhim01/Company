@@ -164,14 +164,11 @@
     color: #14213D;
 }
 
-.solution-bottom__item {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
+
 
 .solution-bottom__mix {
-    margin-top: 50px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .solution-bottom__mix img {
@@ -202,6 +199,7 @@
 }
 
 .process-left {
+    padding-top: 10%;
     display: flex;
     flex-direction: column;
 }

@@ -18,7 +18,7 @@
 }
 
 .nav-link {
-    font-weight: 400;
+    font-weight: 500;
     line-height: 22.8px;
     color: #303948;
     font-size: 20px;
@@ -27,6 +27,7 @@
 }
 
 .nav-link:hover {
+    gap: 10px;
     color: darkblue;
 }
 
