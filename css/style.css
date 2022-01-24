@@ -11,13 +11,11 @@ body {
     width: 100%;
     margin: 0 auto;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 2560px) {
-    .mob-menu img{
+ @media screen and (max-width: 2560px) {
+    .mob-menu img {
         display: none;
     }
 }
-=======
 
 @media screen and (max-width: 2560px) {
     .mob-menu img {
@@ -25,14 +23,13 @@ body {
     }
 }
 
->>>>>>> 2a247648cfed74b2950d25f381f6628b1130fc20
-@media screen and (max-width: 1119px) {
+ @media screen and (max-width: 1119px) {
 
     .navbar {
         display: flex;
         justify-content: space-around;
     }
-    
+
     .home__header {
         text-align: center;
         display: flex;
@@ -44,15 +41,8 @@ body {
         position: relative;
         right: -20%;
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 2a247648cfed74b2950d25f381f6628b1130fc20
-
-
-    .about__text p,
-    .about__title h2 {
+F    .about__title h2 {
         text-align: center;
     }
 
@@ -288,11 +278,11 @@ body {
     .logo {
         padding-top: 0;
     }
-    
-.nav-link{
-    font-size: 25px;
-    font-weight: 700;
-}
+
+    .nav-link {
+        font-size: 25px;
+        font-weight: 700;
+    }
 
     .nav-list {
         position: fixed;

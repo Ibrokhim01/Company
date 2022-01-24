@@ -354,7 +354,6 @@
     display: block;
 }
 
-<<<<<<< HEAD
 .testimony-left__span {
     font-size: 30px;
     font-weight: 700;
@@ -369,20 +368,6 @@
  .testimony-left__img :hover {
     transform: translate3d(30px 50px 100px);
     box-shadow: 10px 10px 10px #333;
-=======
-.testimony-left__img::after {
-    content: 'CoreyAnderson';
-    font-size: 30px;
-    font-weight: 700;
-    color: orange;
-    position: relative;
-    z-index: 2;
-    bottom: 120px;
-    left: 77px;
-}
-
-.testimony-left__img :hover {
->>>>>>> 2a247648cfed74b2950d25f381f6628b1130fc20
     position: relative;
     z-index: 1;
     transition: all 2s ease;
