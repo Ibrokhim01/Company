@@ -344,7 +344,7 @@
     content: url('../img/Dot\ yellow\ 2.png');
     width: 100px;
     height: 100px;
-    transition: all 0, 7s ease;
+    transition: all .7s;
     position: relative;
     z-index: 2;
     top: 90px;
@@ -353,6 +353,7 @@
 }
 
 .testimony-left__span {
+    transition: all .9s;
     font-size: 30px;
     font-weight: 700;
     color: orange;

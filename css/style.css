@@ -11,11 +11,6 @@ body {
     width: 100%;
     margin: 0 auto;
 }
- @media screen and (max-width: 2560px) {
-    .mob-menu img {
-        display: none;
-    }
-}
 
 @media screen and (max-width: 2560px) {
     .mob-menu img {
@@ -23,7 +18,7 @@ body {
     }
 }
 
- @media screen and (max-width: 1119px) {
+@media screen and (max-width: 1119px) {
 
     .navbar {
         display: flex;
@@ -42,7 +37,7 @@ body {
         right: -20%;
     }
 
-F    .about__title h2 {
+    F .about__title h2 {
         text-align: center;
     }
 
@@ -370,7 +365,7 @@ F    .about__title h2 {
 @media screen and (max-width:551px) {
     .home__main {
         position: relative;
-        right: -4%;
+        right: -7%;
     }
 
     .home__title h1 {
@@ -387,24 +382,38 @@ F    .about__title h2 {
     }
 
     .about__title h2 {
+        text-align: center;
         padding: 0;
         line-height: 42px;
     }
-
+    .about__text{
+        text-align: center;
+    }
+.solution-bottom{
+    padding-top: 50px;
+}
     .solution__for__img {
         max-width: 300px;
     }
 
-    .solution-bottom__item {
+    .solution-bottom__mix {
         display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
     }
 
     .solution__right {
-        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
     }
-
+    .solution-bottom__mini img{
+        padding-left: 36%;
+    }
+    .solution-bottom__mintitle,.solution-bottom__text{
+        text-align: center;
+    }
     .process-left__title h2 {
         padding-left: 76px;
         text-align: center;
@@ -445,7 +454,6 @@ F    .about__title h2 {
 
     .testimony-left__img img {
         max-width: 300px;
-        padding-left: 50px;
     }
 
     .testimony-left__img::before {
